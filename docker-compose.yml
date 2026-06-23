@@ -1,0 +1,10 @@
+services:
+  proton-bridge:
+    build: .
+    container_name: proton-bridge
+    restart: unless-stopped
+    ports:
+      - "1143:1143"
+      - "1025:1025"
+    volumes:
+      - ./data:/data

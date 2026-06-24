@@ -23,7 +23,7 @@ Proton Bridge uses a single-instance file lock. You **cannot** run the interacti
 # Run an interactive setup container that shares the same data volume
 docker run --rm -it \
   -v "$(pwd)/data:/data" \
-  ghcr.io/<your-username>/proton-bridge:latest \
+  ghcr.io/waffleophagus/proton-bridge:latest \
   setup
 ```
 

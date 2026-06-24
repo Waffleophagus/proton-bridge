@@ -49,3 +49,6 @@ _doc/
 # gRPC auto-generated C++ source files
 *.pb.cc
 *.pb.h
+
+# Docker runtime data
+data/

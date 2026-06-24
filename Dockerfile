@@ -45,6 +45,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libssl3 \
     libcbor0.8 \
     libsecret-1-0 \
+    pass \
+    gnupg \
     && rm -rf /var/lib/apt/lists/*
 
 # Set XDG dirs so all data lives in one place for volume mounting
